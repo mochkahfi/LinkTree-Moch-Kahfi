@@ -1,0 +1,85 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 0;
+    border-radius: 0;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    overflow: hidden;
+}
+
+.thumbnail {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.profile {
+    padding: 20px 40px 10px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.bio {
+    font-size: 14px;
+    margin-bottom: 25px;
+    color: #ddd;
+}
+
+.links {
+    padding: 0 40px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.link-button {
+    background-color: #1da1f2;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(29,161,242,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.link-button:hover {
+    background-color: #0d8ddb;
+    box-shadow: 0 6px 12px rgba(13,141,219,0.6);
+}
